@@ -1,8 +1,5 @@
-@font-face {
-  font-family: 'goonies';
-  src:  url('../css/Goonies.woff2') format('woff2'),
-        url('../css/goonies.woff') format('woff');
-}
+
+
 
 .hidden{
   display: none;
@@ -16,7 +13,7 @@ main{
 }
 
 header{
-  background-image: url(../images/goonies.jpg);
+  background-image: url(../images/IMG_2601.jpg);
   background-repeat: no-repeat;
 
   height: 330px;
@@ -28,11 +25,10 @@ body{
 
 .text-graphic{
   font-size: 7.5em;
-  font-family: "TheGoonies", "goonies", sans-serif;
-
-  background: linear-gradient(to bottom, #F27322 10%, #F9E639 60%);
+  font-family: "Anton", sans-serif;
   -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  color:black;
+
 
 
   position: relative;
@@ -40,12 +36,50 @@ body{
   top:150px;
 }
 
-.text-graphic span{
-  font-size: 3rem;
-  position:absolute;
-  top:-50px;
-  left:30px;
-  background: linear-gradient(to bottom, #F27322 10%, #F9E639 60%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+.maintext{
+  color: #8dbc45;
+  width:1024px;
+  margin:0 auto;
 }
+
+.title{
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 45px;
+  font-family: "Arvo", sans-serif;
+}
+ .upper{
+
+   font-size: 50px;
+   font-family: "Abel",sans-serif;
+   line-height: 94%;
+   float:left;
+   opacity:0.8;
+
+
+ }
+
+ .lower{
+  margin-bottom:10px;
+   font-size: 20px;
+   opacity:0.6;
+
+   font-family: "Abel",sans-serif;
+ }
+
+ .subtitle{
+
+   font-size:20px;
+   opacity:1;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+   font-family: "Abel",sans-serif;
+ }
+
+ .textWrapper{
+   align-content: center;
+ }
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;*/
